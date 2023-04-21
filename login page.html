@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            font-family: Arial;
+            box-sizing: border-box;
+            padding:14px;
+           background-color: #83c5be;
+        }
+        .body_color{
+            color: #83c5be;
+        }
+        button{
+            width: 45%;
+            height: 32px;
+            padding:10px 10px;
+            border-radius:10px;
+            background-color:#ef476f ;
+            text-color: #ffffff;
+            opacity:0.89 px;
+        }
+        .text-color{
+             color:#f72585;
+             opacity:10;
+        }
+        .white_color{
+             color:#ffffff;
+             text-align: center;
+       }
+
+        .div_class{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            padding-top:10px;
+            background-color: #ffb3c6;
+            border-radius: 20px;
+            height: 700%;
+            width: 350px;
+
+            
+        }
+        .text_class{
+            border-radius:5px;
+            box-shadow: none;
+       }
+       .div_center{
+    
+        margin:auto;
+        width: 35%;
+
+   }
+   .btn1,btn2{
+     margin:auto;
+     padding-top:10px;
+
+
+   }    
+
+  input[type=text]{
+    background:transparent;
+    border:none;
+    border-bottom: 1.5px  solid  #FAF0E6;
+  }  
+  
+  input[type=email]{
+    background:transparent;
+    border:none;
+    border-bottom: 1.5px solid  #FAF0E6;
+  }  
+  input[type=password]{
+    background:transparent;
+    border:none;
+    border-bottom: 1.5px solid  #FAF0E6;
+  }  
+  input[placeholder= Username ]{
+    text-align: center;
+  }  
+  input[placeholder=abcd@gmail]{
+     text-align: center  ;
+  }  
+  input[placeholder =Enter password]{
+   text-align:center;
+  }  
+  input[placeholder = Repeat password]{
+    text-align:center;
+   }  
+  .new_font{
+    font-size:14px;
+    color:#ff006e;
+    white-space:nowrap;
+   }  
+   ._margin_left{
+    margin-left: 10px;
+   }  
+    </style>
+</head>
+<body class="body_color">
+     <div class="div_center">
+    <form action="#" class="div_class" >
+    <div>
+    <center>
+     <h1 class="text-color">Sign Up</h1>
+    <label for="name" id="input_id"  class="new_font">Name:</label>
+    <p class="_margin_left"><input  rows="10" col="0" type="text" class="text_class"  required></p>
+      <br>
+    <label for="email" class="new_font">Email Address</label>
+    <p><input type="email"   id="email" class="text_class"  required></p>
+      <br>
+    <label for="password" class="new_font">Password</label>
+    <p><input type="password" id="password"  class="text_class" required ></p>
+      <br>
+    <label for="repeat_password" class="new_font">Repeat Password</label>
+    <p><input type="password"   id="repeat_password" class="text_class" required ></p>
+    <p class="new_font"><input type="checkbox" >Remember me</p> 
+   <div>
+    <br>
+    <br>
+    <button type="cancel" class="white_color">Cancel</button>      <button type="submit" class="white_color">Submit</button>
+    <br>
+        <br>
+</div>
+    </center>
+      </div>
+    </form>
+    </div>
+</body>
+</html>
